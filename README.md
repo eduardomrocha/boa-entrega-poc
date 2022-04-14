@@ -3,15 +3,15 @@
 ## Trabalho de Conclusão de Curso PUC Minas - POC
 
 Antes de tudo é preciso criar um arquivo .dev na pasta env com as seguintes variáveis de ambiente:
-`ENVIRONMENT=dev
-TESTING=0
-DATABASE_URL=mysql://user:password@db:3306/sistemagestaoentregas
+`ENVIRONMENT=dev`
+`TESTING=0`
+`DATABASE_URL=mysql://user:password@db:3306/sistemagestaoentregas`
 
-SQL_DATABASE=sistemagestaoentregas
-SQL_USER=user
-SQL_PASSWORD=password
-SQL_HOST=db
-SQL_PORT=3320`
+`SQL_DATABASE=sistemagestaoentregas`
+`SQL_USER=user`
+`SQL_PASSWORD=password`
+`SQL_HOST=db`
+`SQL_PORT=3320`
 
 Para levantar o projeto basta ter o docker instalado e rodar o comando:
 `docker compose up --build --scale web=3`
